@@ -27,5 +27,5 @@ ENTRYPOINT ["/bin/bash","-c", "\
                 ./startVNC.sh \"$@\"; \
             }; \"$@\"", "foo"]
 
-EXPOSE 5900
+EXPOSE 443
 CMD ["startVNC"]
